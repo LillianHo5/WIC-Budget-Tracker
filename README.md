@@ -1,1 +1,1 @@
-# WIC-Budget-Trakcer
+# WIC-Budget-Tracker
