@@ -27,7 +27,7 @@
             <tr>
               <th>Date</th>>
               <th>Location</th>>
-              <th>Discription</th>>
+              <th>Description</th>>
               <th>Category</th>>
               <th>Amount</th>>
               <th></th>>
@@ -39,7 +39,7 @@
                 <input class = "input input-date" type = "date" >
               </td>
               <td>
-                <input class = "input input-location" type = "text" placeholder="Add a Description (e.g. wages, bills, ect.)" >
+                <input class = "input input-location" type = "text" placeholder="Add a Location" >
               </td>
               <td>
                 <input class = "input input-decription" type = "text" placeholder="Add a Description (e.g. wages, bills, ect.)" >
@@ -54,10 +54,25 @@
                 <input type="number" class = "input input-amount">
               </td>
               <td>
-                <button type="button" class = "delete-entry">$#1005;</button>>
+                <button type="button" class = "delete-entry">&#10005; </button>>
               </td>
-            </tr>>
-          </tbody>>  
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td colspan = "5"> 
+                <button type = "button" class="new-entry">New Entry</button>
+              </td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="5" class="summary">
+                <strong>Total:</strong>
+                <span class = "total"> $0.00</span>
+              </td>
+            </tr>
+          </tfoot>
         </table>
        </div> 
       <table>
