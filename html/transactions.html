@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="../style.css" />
+    <script type = "module" src="js/main.js"></script> >
 
     <title>Transactions</title>
 </head>
@@ -20,6 +21,45 @@
         <button class="button1">Add Transaction</button>
         <button class="button2">Add Paycheck</button>
       </div>
+      <div id="app">
+        <table class="budget-tracker">
+          <thread>
+            <tr>
+              <th>Date</th>>
+              <th>Location</th>>
+              <th>Discription</th>>
+              <th>Category</th>>
+              <th>Amount</th>>
+              <th></th>>
+            </tr>>
+          </thread>
+          <tbody class = "entries"> 
+            <tr>
+              <td>
+                <input class = "input input-date" type = "date" >
+              </td>
+              <td>
+                <input class = "input input-location" type = "text" placeholder="Add a Description (e.g. wages, bills, ect.)" >
+              </td>
+              <td>
+                <input class = "input input-decription" type = "text" placeholder="Add a Description (e.g. wages, bills, ect.)" >
+              </td>
+              <td>
+                <select class="input input-type">
+                 <option value = "income"> Income </option>
+                 <option value = "expense"> Expense </option>
+                </select> 
+              </td>  
+              <td>
+                <input type="number" class = "input input-amount">
+              </td>
+              <td>
+                <button type="button" class = "delete-entry">$#1005;</button>>
+              </td>
+            </tr>>
+          </tbody>>  
+        </table>
+       </div> 
       <table>
         <tr>
           <th>Date</th>
